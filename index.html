@@ -19,7 +19,7 @@
       <!-- TODO: Buatlah sebuah button dengan id todo-submit -->
       <section id="input">
         <input type="text" id="todo-input" />
-        <button id="todo-button">Create</button>
+        <button id="todo-submit">Create</button>
       </section>
 
       <!-- Section output -->
@@ -33,7 +33,7 @@
     <!-- ! Untuk tantangan ini, script jangan diubah ke external js yah ! -->
     <script>
       // TODO: Deklarasi variable sesuai dengan kebutuhan di sini
-      let button = document.getElementById('todo-button');
+      let button = document.getElementById('todo-submit');
       let input = document.getElementById('todo-input');
       let output = document.getElementById('todo-output');
 
@@ -49,13 +49,13 @@
 
       // TODO: register event onclick / addEventListener untuk button
       // akan menjalankan fungsi fnClickHandler
-      button.addEventListener('click', ()=>fnClickHandler(input.value));
+      button.addEventListener('click', () => fnClickHandler(input.value));
 
       // TODO: register event onkeypress / addEventListener untuk input
       // sehingga saat di input ditekan enter akan menjalankan fungsi fnClickHandler juga
-    input.addEventListener('keypress', (ev)=>{
-      if(ev.charCode === 13) fnClickHandler(input.value);
-    });
+      input.addEventListener('keypress', (ev)=>{
+        if(ev.charCode === 13) fnClickHandler(input.value);
+      });
     </script>
   </body>
 </html>

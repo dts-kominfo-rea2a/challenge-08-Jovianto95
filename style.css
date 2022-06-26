@@ -56,7 +56,7 @@ body {
     font-size: 1.2rem;
 }
 
-#todo-button {
+#todo-submit {
     padding: 10px 15px;
     border: 2px solid #0917e4;
     background-color: #0f1ff1;
@@ -65,7 +65,7 @@ body {
     color: #fff;
 }
 
-#todo-button:hover {
+#todo-submit:hover {
     cursor: pointer;
     background-color: #2b34b8;
 }
