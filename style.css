@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100;
+    background: linear-gradient(
+        279deg,
+        rgb(228, 70, 207) 0%,
+        rgb(187, 12, 12) 100%
+    );
+    padding-top: 10rem;
+}
+
+#app {
+    margin:auto;
+    background-color: #fff;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+#todo-title {
+    font-family: "Franklin Gothic Medium";
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#todo-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#input {
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo-input {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline-color:blue;
+    border: 2px solid #3a0ae7;
+    font-size: 1.2rem;
+}
+
+#todo-button {
+    padding: 10px 15px;
+    border: 2px solid #0917e4;
+    background-color: #0f1ff1;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+#todo-button:hover {
+    cursor: pointer;
+    background-color: #2b34b8;
+}
+
+#output {
+    font-size: 1.2rem;
+}
+
+#todo-output li {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 0.9rem;
+}
